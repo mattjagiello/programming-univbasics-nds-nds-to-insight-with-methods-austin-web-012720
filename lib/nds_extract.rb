@@ -16,10 +16,6 @@ def gross_for_director(director_data)
   director_data[:movies].each do |value|
     value.each do |key, value1|
       p value1
-      if value1 > 5000
-        total += value1
-      end
-      p total
     end
   end
   return total
