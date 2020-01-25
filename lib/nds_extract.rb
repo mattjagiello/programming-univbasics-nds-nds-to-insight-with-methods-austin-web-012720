@@ -25,6 +25,7 @@ def directors_totals(nds)
     value.each do |key, value1|
       result[:name] = value1 if key == :name
     end
+    puts result
   end
 #  row_index = 0
 #  while row_index < nds.length do
