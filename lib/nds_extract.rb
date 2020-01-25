@@ -23,7 +23,7 @@ def directors_totals(nds)
   result = {}
   nds.each do |value|
     value.each do |key, value1|
-      pp key
+      p key
     end
     puts result
   end
