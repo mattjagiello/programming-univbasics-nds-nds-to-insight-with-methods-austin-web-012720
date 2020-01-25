@@ -14,7 +14,7 @@ def gross_for_director(director_data)
   array = []
   director_data.each do |value|
     value.each do |value1|
-      value1.each do |value2|
+      value1.each do |key, value2|
       array << value2
       end
     end
