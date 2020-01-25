@@ -23,7 +23,7 @@ def directors_totals(nds)
   result = {}
   nds.each do |value|
     value.each do |key, value1|
-      result[:name] = value1 if key == :name
+      result[:name] = gross_for_director(director_data)
     end
     puts result
   end
