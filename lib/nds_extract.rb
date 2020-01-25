@@ -1,15 +1,16 @@
 $LOAD_PATH.unshift(File.dirname(__FILE__))
 require 'directors_database'
+require 'pp'
 
 # Find a way to accumulate the :worldwide_grosses and return that Integer
 # using director_data as input
 def gross_for_director(director_data)
   total = 0
-  index = 0
-  movie_count = director_data[:movies].count
-  while index < movie_count do
-    total += director_data[:movies][index][:worldwide_gross]
-    index += 1
+  array = []
+  director_data[:movies].each do |value|
+    value.each do |key, value1|
+      total += value1 if key == :worldwide_gross
+    end
   end
   return total
 end
