@@ -6,12 +6,6 @@ require 'pp'
 # using director_data as input
 def gross_for_director(director_data)
   total = 0
-#  index = 0
-#  movie_count = director_data[:movies].count
-#  while index < movie_count do
-#    total += director_data[:movies][index][:worldwide_gross]
-#    index += 1
-#  end
   array = []
   director_data[:movies].each do |value|
     value.each do |key, value1|
