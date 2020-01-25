@@ -24,7 +24,7 @@ def directors_totals(nds)
   nds.each do |value|
     value.each do |name, value1|
       pp name
-      pp value
+      pp value1
     end
   end
 #  row_index = 0
