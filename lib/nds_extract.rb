@@ -16,7 +16,7 @@ def gross_for_director(director_data)
   director_data[:movies].each do |value|
     value.each do |key, value1|
       #if key == :worldwide_gross
-        print value
+        puts value
       #end
     end
   end
