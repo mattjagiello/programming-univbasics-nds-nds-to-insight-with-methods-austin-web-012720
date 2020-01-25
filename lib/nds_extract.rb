@@ -23,10 +23,7 @@ def directors_totals(nds)
   result = {}
   nds.each do |value|
     value.each do |key, value1|
-      if key == :name
-        result = value1
-      end
-      puts result
+      puts value1
     end
   end
 #  row_index = 0
