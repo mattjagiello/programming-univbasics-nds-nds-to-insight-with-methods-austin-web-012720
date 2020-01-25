@@ -15,8 +15,8 @@ def gross_for_director(director_data)
   array = []
   director_data[:movies].each do |value|
     value.each do |key, value|
-    pp value
-  end
+      pp value
+    end
   end
   return value
 end
