@@ -16,7 +16,7 @@ def gross_for_director(director_data)
   director_data.[:movies]each do |value|
     pp value
   end
-  return value1
+  return value
 end
 
 # Write a method that, given an NDS creates a new Hash
