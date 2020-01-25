@@ -17,7 +17,7 @@ def gross_for_director(director_data)
     value.each do |key, value1|
       #if key == :worldwide_gross
         pp value1
-      end
+      #end
     end
   end
   return value
