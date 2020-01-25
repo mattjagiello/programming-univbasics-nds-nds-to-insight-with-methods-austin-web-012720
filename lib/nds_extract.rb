@@ -13,7 +13,7 @@ def gross_for_director(director_data)
 #    index += 1
 #  end
   array = []
-  director_data.[:movies]each do |value|
+  director_data[:movies].each do |value|
     pp value
   end
   return value
