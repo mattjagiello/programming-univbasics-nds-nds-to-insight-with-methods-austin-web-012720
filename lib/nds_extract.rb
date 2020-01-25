@@ -17,7 +17,7 @@ def gross_for_director(director_data)
     value.each do |value1|
       pp value1
   end
-  return value
+  return value1
 end
 
 # Write a method that, given an NDS creates a new Hash
