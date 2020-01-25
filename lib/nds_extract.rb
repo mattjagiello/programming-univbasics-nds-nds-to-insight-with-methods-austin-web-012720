@@ -14,7 +14,7 @@ def gross_for_director(director_data)
   array = []
   director_data.each do |value|
     value.each do |value1|
-      array << value1[:movies][:worldwide_gross]
+      array << value1[:movies]
     end
   end
   return array
